@@ -1,0 +1,34 @@
+Doc<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+  <body>
+    <label for="">Name</label>
+    <input type="text" placeholder=" " onfocus="FocusBox(this)" onblur="BlurBox(this)">
+    
+    <p><lable for="">Surname</lable>
+    <input type="text" placeholder=" " onfocus="FocusBox(this)" onblur="BlurBox(this)"></p>
+    
+    <p>Birth Date</p>
+            <p>
+                <label for="birthday"></label>
+                <input type="date" id="birthday" name="birthday">
+            </p>
+    
+    <label for="">Select your language</label>
+    <select name="" id="menu" onchang="SelectedMenu()">
+      <option value="--Select--">--Select--</option>
+      <option value="C">C</option>
+      <option value="Java">Java</option>
+      <option value="JavaScript">JavaScript</option>
+      <option value="Python">Python</option>
+    </select>
+    
+    <p><button onclick="disPlayText()">Submit</button></p>
+    
+    
+    <script src="woo.js"></script>
+  </body>
+</html>
